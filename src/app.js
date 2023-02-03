@@ -40,7 +40,7 @@ const day = d.getDay();
 const date = d.getDate();
 const month = d.getMonth();
 const month_data = mL[month];
-const day_data = daysInWeek[day - 1];
+const day_data = daysInWeek[day];
 hbs.registerPartials(_path_view_partials);
 app.set("view engine", "hbs");
 app.set("views", _path_view);
